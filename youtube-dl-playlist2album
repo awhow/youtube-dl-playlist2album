@@ -1,0 +1,8 @@
+youtube-dl -x --audio-format "mp3" --embed-thumbnail --add-metadata \
+-o '%(album)s - %(playlist_index)02d - %(title)s.%(ext)s' \
+$1
+
+# TODO: 
+# 1. Filename: <Aritist> - <Year> - <Album> - <Index> - <Track Title>.mp3
+# 2. Write metadata to file, including track number
+# 3. Square the embeded thumbnail
